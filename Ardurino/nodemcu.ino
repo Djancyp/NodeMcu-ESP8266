@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 
-const char* ssid     = "BTHub4-GH5G";// Your home Wifi Ssid
-const char* password = "da5692dec5"; //Home wifi password
+const char* ssid     = "Your home Wifi Ssid";// Your home Wifi Ssid
+const char* password = "password"; //Home wifi password
 const char* host = "192.168.1.155"; //on localhost use ur computer ip or any Host ex(www.example.com)
 const char*  path = "/nodemcu/nodemcu.json";//folder path
 
